@@ -1,0 +1,45 @@
+/* Tip, copy paste from 13c.01.01 & 13c.01.02 to get fonts and colors up and running ... */
+html,
+body,
+header,
+main {
+  padding: 0;
+  margin: 0;
+}
+/* Images */
+
+.header_graphics {
+  background-image: url(https://source.unsplash.com/random/1200x800);
+  background-size: cover;
+  height: 400px;
+}
+.product_graphics {
+  background-image: url(https://source.unsplash.com/random/700x300);
+  background-size: cover;
+  height: 700px;
+}
+
+h1 {
+  padding-top: 2rem;
+}
+
+.advantages_card_graphics {
+  background-image: url(https://source.unsplash.com/random/300x300);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.team_graphics {
+  background-image: url(https://source.unsplash.com/random/300x300);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+#order-1 {
+  order: 2;
+}
